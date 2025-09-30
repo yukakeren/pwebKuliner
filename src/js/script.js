@@ -54,12 +54,12 @@ const searchCloseBtn = document.querySelector("[data-search-close-btn]");
 
 const searchBoxElems = [searchBtn, searchSubmitBtn, searchCloseBtn];
 
-for (let i = 0; i < searchBoxElems.length; i++) {
-  searchBoxElems[i].addEventListener("click", function () {
-    searchContainer.classList.toggle("active");
-    document.body.classList.toggle("active");
-  });
-}
+// for (let i = 0; i < searchBoxElems.length; i++) {
+//   searchBoxElems[i].addEventListener("click", function () {
+//     searchContainer.classList.toggle("active");
+//     document.body.classList.toggle("active");
+//   });
+// }
 
 
 

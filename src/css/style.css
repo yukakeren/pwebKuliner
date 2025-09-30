@@ -1413,9 +1413,25 @@ textarea.input-field {
 
 }
 
+/* Form message styling */
+.form-message {
+  margin: 15px 0;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+}
 
+.form-message.success {
+  background-color: #dff0d8;
+  color: #3c763d;
+  border: 1px solid #d6e9c6;
+}
 
-
+.form-message.error {
+  background-color: #f2dede;
+  color: #a94442;
+  border: 1px solid #ebccd1;
+}
 
 /**
  * responsive for larger than 768px screen
