@@ -683,6 +683,10 @@ body.active { overflow: hidden; }
 
 .about .btn { margin-inline: auto; }
 
+.about .container {
+  padding-inline-start: 0;
+}
+
 
 
 

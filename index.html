@@ -63,12 +63,14 @@
             <a href="#about" class="navbar-link" data-nav-link>About</a>
           </li>
 
+          <li class="nav-item">
+            <a href="#booking" class="navbar-link" data-nav-link>Book Now</a>
+          </li>
+
         </ul>
       </nav>
 
       <div class="header-btn-group">
-        <button class="btn btn-hover" onclick="document.getElementById('maps').scrollIntoView({behavior: 'smooth'});">Maps</button>
-        
 
         <button class="nav-toggle-btn" aria-label="Toggle Menu" data-menu-toggle-btn>
           <span class="line top"></span>
@@ -297,8 +299,7 @@
               </li>
 
             </ul>
-
-            <button class="btn btn-hover">Jelajahi Sekarang</button>
+            <a href="#maps"><button class="btn btn-hover">Jelajahi Sekarang</button></a>
 
           </div>
 
@@ -412,6 +413,44 @@
         </div>
       </section>
 
+      <section class="section booking" id="booking">
+        <div class="container">
+          <div class="booking-content">
+            <h2 class="h2 section-title">Book A Table</h2>
+            <p class="section-text">
+              Reservasi sekarang untuk mendapatkan tempat paling eksis di Kya Kya!!!!
+            </p>
+          </div>
+
+          <form class="booking-form">
+            <div class="input-wrapper">
+              <input type="text" name="name" placeholder="Nama kamu" required class="input-field">
+              
+              <input type="email" name="email" placeholder="Email" required class="input-field">
+            </div>
+            
+            <div class="input-wrapper">
+              <input type="tel" name="phone" placeholder="No. telp(08....)" required class="input-field">
+              
+              <select name="people" class="input-field">
+                <option value="">Jumlah orang</option>
+                <option value="1">1-2 Orang</option>
+                <option value="3">3-4 Orang</option>
+                <option value="5">5+ Orang</option>
+              </select>
+            </div>
+            
+            <div class="input-wrapper">
+              <input type="date" name="reservation-date" required class="input-field">
+              <input type="time" name="reservation-time" required class="input-field">
+            </div>
+            <textarea name="message" placeholder="Notes booking" class="input-field"></textarea>
+            
+            <button type="submit" class="btn">Booking Sekarang</button>
+          </form>
+        </div>
+      </section>
+
 
 
   <!-- 
@@ -432,10 +471,6 @@
           </p>
 
         </div>
-
-
-  
-
       </div>
     </div>
 
